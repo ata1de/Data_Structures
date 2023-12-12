@@ -1,77 +1,73 @@
-# À procura da Esmeralda Secreta
+# Stack
+O código a seguir representa parcialmente uma pilha. Para que ele funcione corretamente você deve implementar os métodos push, responsável por adicionar novos elementos a pilha, e o método pop, responsável por revomer os elementos da pilha. ATENÇÃO: Você deve usar a classe Node do código para armazenar os elementos da pilha, e não listas built-in de Python.
 
-Em uma terra distante, havia dois irmãos gêmeos exploradores de dados chamados Dwayne Johnson e The Rock, que se aventuravam em uma floresta misteriosa chamada Cinlândia, uma floresta de dados encantados. Eles estavam em busca da lendária "Esmeralda Secreta", uma joia preciosa que detinha todo o conhecimento do universo.
-
-A jornada dos irmãos começou quando eles encontraram um mapa antigo, que indicava a presença de grandes desafios ao longo do caminho. O mapa revelava que para chegar à poderosa Esmeralda, eles teriam que superar obstáculos utilizando seus conhecimentos sobre estruturas de dados.
-
-Ao adentrar a floresta, Dwayne e The Rock depararam-se com um enigma deixado pelos guardiões da floresta, seres sábios que protegiam a preciosa Esmeralda. O enigma consistia em uma série de tarefas relacionadas às estruturas de dados.
-
-The Rock encontrou uma misteriosa espécie de criatura chamada Node que emitia uma luz radiante. Cada Node possuía um número gravado e uma instrução. O desafio era criar um caminho que interligava os Nodes de modo que ao final, depois de seguir todas as instruções, fosse formado um holograma do mapa que o levaria a Esmeralda Secreta.
-
-## Instruções
-- `Empurre-me!` - move o Node para uma posição à direita do caminho;
-
-- `Puxe-me!` - move o Node para uma posição à esquerda do caminho;
-
-- `Remova-me!` - remove o Node do caminho;
-
-- `Adicione-me!` - adiciona o Node ao final do caminho;
-
-- `Fim!` - última pedra do caminho.
-
-## Atenção
+## Code
 ```
-ATENÇÃO!!! Responder usando lista encadeada simples e Está proibido o uso de bibliotecas
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next_node = None
+
+
+class Stack:
+    def __init__(self):
+        self.top = None
+
+    def is_empty(self):
+        return self.top is None
+
+    def push(self, data):
+        # ______________Complete aqui______________
+
+    def pop(self):
+        # ______________Complete aqui______________
+
+    def get(self):
+        current = self.top
+        elements = []
+        while current:
+            elements.append(current.data)
+            current = current.next_node
+        return elements
+
+
+def main():
+    stack = Stack()
+
+    elements = input()
+
+    for element in elements.split():
+        stack.push(element)
+
+    print(f"Pilha: {stack.get()}")
+
+    for _ in range(len(elements.split())):
+        popped_element = stack.pop()
+        print(f"Removido: {popped_element}")
+        print(f"Pilha: {stack.get()}")
+
+if __name__ == "__main__":
+    main()
 ```
 
 ### Inputs
-o Input será um número seguido de dois pontos (:), depois a instrução e sem espaços!!!
-
-Exemplo:
-
-- 1:adicione-me!
-
-- 2:adicione-me!
-
-- 2:remova-me!
-
-- 3:adicione-me!
-
-- 4:adicione-me!
-
-- 1:empurre-me!
-
-- 6:empurre-me!
-
-- 4:empurre-me!
-
-- 3:puxe-me!
-
-- fim!
-
-### Output
-A cada instrução realizada, deverá ser printado "Node" + número que foi especificado + instrução realizada
+Uma lista separada por espaços:
 ```
-"Node {num} [instrução]"
+1 2 3 4 5
 ```
 
-Quando o input for "fim!", deverá ser printado "mapa:" + números organizados separados por um hífen (-) e maior que (>), sem espaço.
+### Outputs
+Uma sequência que mostra a pilha e o item remvido:
 ```
-"mapa:1->2->3"
+Pilha: ['5', '4', '3', '2', '1']
+Removido: 5
+Pilha: ['4', '3', '2', '1']
+Removido: 4
+Pilha: ['3', '2', '1']
+Removido: 3
+Pilha: ['2', '1']
+Removido: 2
+Pilha: ['1']
+Removido: 1
+Pilha: []
 ```
-
-Caso um Node seja especificado para realizar alguma instrução e ele não exista, deverá ser printado:
-```
-"Node {num} não existe"
-```
-
-Caso seja pedido para que um Node seja empurrado, mas não tem mais nenhum outro depois dele, isto é, ele é o último do caminho, deverá ser printado:
-```
-"Não existe Node depois de {num}"
-```
-
-Caso seja pedido para que um Node seja puxado, mas não tem mais nenhum outro antes dele, isto é, ele seja o primeiro do caminho, deverá ser printado:
-```
-"Não existe node antes de {num}"
-```
-
