@@ -9,8 +9,8 @@ This repository is thoughtfully organized:
 
 ## Container
 - `pilhas-filas-vetores/`: Home to implementations and tests related to stack data structures and concerning queue data structures.
-- `LinkedL`ists/: Hosts implementations and tests for linked list data structures.
-- `Stacks/`: Serves as the domain for implementations and tests 
-- `Queues/`: A dedicated space for implementations and tests concerning queue data structures.
+
+- `LinkedLists/`: Hosts implementations and tests for linked list data structures.
+
 - `Trees/:` Contains implementations and tests for tree data structures.
-- `Graphs/`: The arena for implementations and tests focusing on graph data structures.
+- `Heap Heapsorts/`: The arena for implementations and tests focusing on heap and heapsorts data structures.
