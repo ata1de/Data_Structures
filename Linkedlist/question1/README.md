@@ -1,4 +1,4 @@
-# À procura da Esmeralda Secreta
+# 💎 À procura da Esmeralda Secreta
 
 Em uma terra distante, havia dois irmãos gêmeos exploradores de dados chamados Dwayne Johnson e The Rock, que se aventuravam em uma floresta misteriosa chamada Cinlândia, uma floresta de dados encantados. Eles estavam em busca da lendária "Esmeralda Secreta", uma joia preciosa que detinha todo o conhecimento do universo.
 

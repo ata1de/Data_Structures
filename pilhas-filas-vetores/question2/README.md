@@ -1,4 +1,4 @@
-# Stack
+# 🔋 Stack
 O código a seguir representa parcialmente uma pilha. Para que ele funcione corretamente você deve implementar os métodos push, responsável por adicionar novos elementos a pilha, e o método pop, responsável por revomer os elementos da pilha. ATENÇÃO: Você deve usar a classe Node do código para armazenar os elementos da pilha, e não listas built-in de Python.
 
 ## Code

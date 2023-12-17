@@ -1,4 +1,4 @@
-# Hermione e o Vira-Tempo
+# ⏰ Hermione e o Vira-Tempo
 Hermione Granger, uma estudante brilhante de Hogwarts, decidiu usar o Vira-Tempo (Time-Turner) para otimizar seu aprendizado tanto na Escola de Magia e Bruxaria de Hogwarts quanto no Instituto de Ciências Nórdicas (Cin).
 
 O Vira-Tempo é um dispositivo mágico que permite a quem o utiliza voltar no tempo por algumas horas.

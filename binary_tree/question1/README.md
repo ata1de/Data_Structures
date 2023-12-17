@@ -1,4 +1,4 @@
-# BORA SOLTE MINHA CAMISA
+# 👕 BORA SOLTE MINHA CAMISA
 Recentemente um fenômeno anormal vem acontecendo nas estações por todo o Brasil, aparentemente camisas estão sendo puxadas e o dono da camisa não consegue descobrir quem é o culpado por tal importunação. Sabendo disso, professor Sergio de algoritmos teve uma ideia, chamar todos que estão na estação e entregar camisas numeradas, as quais devem ser ordenadas por meio de uma árvore binária, pois a pessoa vestindo a camisa com o número mais à esquerda da árvore será a responsável por puxar a camisa da raiz da árvore, isso graças a um método de pesquisa desenvolvido pelo professor Sérgio, sabendo que a raiz é o primeiro número lido e os seguites serão adicionados conforme as especificações da árvore, onde um item menor é adicionado à esquerda e um maior à direita. Mas para não te deixar desamparado um trecho de código foi disponibilizado para te ajudar:
 
 ## Code

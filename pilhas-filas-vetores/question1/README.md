@@ -1,4 +1,4 @@
-# Patrocinado
+# ✔ Patrocinado
 Para a organização de uma pilha de materiais em um vestiário do campeonato mundial de 1x1 FIFA. você ficou responsável em conferir se cada camisa com o nome de jogador vai receber sua chuteira da marca que representa. Levando em conta que 4 jogadores renomados: Endrick, Neymar, CR7 e Messi estarão nesse campeonato e representam marcas específicas - "new balance", "puma", "nike" e "adidas", respectivamente. Organize a pilha de materiais para que cada camisa (representada pelo nome do jogador) fique seguido da chuteira (representada pela marca).
 
 ## Regras
