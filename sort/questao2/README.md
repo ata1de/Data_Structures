@@ -9,10 +9,10 @@ Os métodos de ordenação que apareceram nos cases são: Insertion Sort, Quick 
 
 **É proibido o uso de bibliotecas, assim como também é proibido utilizar a função sort para ordenar a lista, a ordenação da lista deve ser feita através do método de ordenação especificado no case, também não é permitido que você utilize outro método para ordenar a lista, ex: ordenar com insertion Sort o case de Quick Sort**
 
-Input
+## Input
 
 Será informado a lista do seu presente misterioso e o método de ordenação especificado, dentre os métodos possíveis. Também pode ser informado se foi ou não dobrado, caso seja, a lista deve ser retornada de maneira ordenada e com os valores duplicados.
-
+```
 Exemplo:
 
 1, 4, 3, 5, 7, 2, 8, 6, 9
@@ -21,10 +21,14 @@ Insertion Sort
 
 dobre!
 
-Output
+```
+
+
+## Output
 
 Será impresso a lista ordenada, dobrada ou não, dependendo do que foi informado.
-
+```
 Exemplo:
 
 [2, 4, 6, 8, 10, 12, 14, 16, 18]
+```
