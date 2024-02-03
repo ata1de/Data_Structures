@@ -8,6 +8,7 @@ class Node:
 class HeapTree:
     def __init__(self):
         self.root = None
+        self.tree = []
     
     def insert(self, list):
         self.root = Node(list[0])
@@ -44,12 +45,29 @@ class HeapTree:
             node.parent = head
             pilha.append(node)
 
-    def toTop(self):
+        self.Max(list)
+
+    def Max(self,list):
         pass
+        
+
+    def preorder_traversal(self, node=None):
+        if node is None:
+            node = self.root
+        if node.left:
+            self.tree.append(node.data)
+            self.preorder_traversal(node.left)
+        if node.right:
+            self.preorder_traversal(node.right)
+        else:
+           self.tree.append(node.data)
+
 
 
 # Exemplo de uso
 heap_tree = HeapTree()
-lista_exemplo = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-heap_tree.insert(lista_exemplo)
-print('oi')
+lista_exemplo = input().split()
+lista_exemplo2 = list(map(int, lista_exemplo))
+heap_tree.insert(lista_exemplo2)
+heap_tree.preorder_traversal()
+print(heap_tree.tree)

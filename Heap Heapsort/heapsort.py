@@ -21,13 +21,18 @@ class Tree:
         for i in range(len(list)):
                 elemento = list[i]
                 node = Node(elemento)
-                # ADICIONANDO O ELEMENTO A ESQUERDA
-                elemento_esquerda = list[(2*i) + 1]
-                node.left = Node(elemento_esquerda)
 
-                # Adicionando o elemento a esquerda
-                elemento_direita = list[(2*i) + 2]
-                node.right = Node(elemento_direita)
+                # ADICIONANDO O ELEMENTO A ESQUERDA
+                index_left = ((2*i) + 1)
+                if index_left <= len(list)-1:
+                    elemento_esquerda = list[(2*i) + 1]
+                    node.left = Node(elemento_esquerda)
+
+                # Adicionando o elemento a direita
+                index_right = ((2*i) + 2)
+                if index_right <= len(list)-1:
+                    elemento_direita = list[(2*i) + 2]
+                    node.right = Node(elemento_direita)
 
                 # Se o elemento for a raiz não tem parent
                 if i ==0:
@@ -38,6 +43,9 @@ class Tree:
          
 
 
-
-list_tree = input().split() 
+tree = Tree()
+lista_exemplo = input().split()
+lista_exemplo2 = list(map(int, lista_exemplo))
+tree.insert(lista_exemplo2)
+print('oi')
 
