@@ -14,4 +14,5 @@ This repository is thoughtfully organized:
 
 - `Trees/:` Contains implementations and tests for tree data structures.
 - `Heap Heapsorts/`: The arena for implementations and tests focusing on heap and heapsorts data structures.
-- `Hash/`: "Contains questions about HashTable implementations and tests focusing on optimized data structures."
+- `Hash/`: Contains questions about HashTable implementations and tests focusing on optimized data structures.
+- `graphs/`: This folder contains a curated selection of exercises focused on various aspects of graph theory
