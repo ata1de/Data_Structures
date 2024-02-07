@@ -1,11 +1,8 @@
 # Data Structures Learning Hub
-Greetings! You've landed on my Data Structures Learning Hub. The primary objective of this venture is to explore the intricacies of data structures using C++. We embark on this journey starting with foundational concepts like arrays and progressively advance to more intricate structures such as trees and graphs.
+Hello and welcome! You've arrived at my Data Structures Learning Hub. The main goal here is to delve into the depths of data structures through Python. Our journey begins with the basics like arrays and moves forward to delve into more complex structures such as trees and graphs.
 
-As part of my immersive learning process, I'm committed to crafting comprehensive tests for each implemented data structure using Google Test. This dual purpose not only reinforces my comprehension of these structures but also hones my skills in writing robust and effective tests.
+As I immerse myself in learning, I'm dedicated to creating thorough tests for every data structure implemented, utilizing Google Test. This serves a dual purpose: solidifying my understanding of these structures while enhancing my ability to write reliable and efficient tests.
 
-## Structure of the Repository
-
-This repository is thoughtfully organized:
 
 ## Container
 - `pilhas-filas-vetores/`: Home to implementations and tests related to stack data structures and concerning queue data structures.
