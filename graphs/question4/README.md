@@ -48,7 +48,6 @@ Coloque dois objetos setados no seu código:
 - grafo_ponderado2 = { 'A': {'B': 4, 'C': 2}, 'B': {'A': 4, 'D': 1, 'E': 7}, 'C': {'A': 2, 'F': 5}, 'D': {'B': 1, 'G': 3}, 'E': {'B': 7, 'H': 2}, 'F': {'C': 5, 'I': 6}, 'G': {'D': 3}, 'H': {'E': 2, 'I': 8}, 'I': {'F': 6, 'H': 8} }
 
 Caso o comando seja **1** utilize o grafo_ponderado1, caso seja **2** utilize o grafo_ponderado2, bem simples!
-
 ## Output
 
 A saída do programa consistirá em uma lista de tuplas com duas strings = ( vértice de origem, vértice de destino ), referente aos vértices visitados na ordem do algoritmo e seus vértice anterior.
