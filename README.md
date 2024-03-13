@@ -13,7 +13,7 @@ As I immerse myself in learning, I'm dedicated to creating thorough tests for ev
 - `Heap Heapsorts/`: The arena for implementations and tests focusing on heap and heapsorts data structures.
 - `Hash/`: Contains questions about HashTable implementations and tests focusing on optimized data structures.
 - `graphs/`: This folder contains a curated selection of exercises focused on various aspects of graph theory
-- `Dynamic Programming/`: Features dynamic programming implementations and tests for optimizing various computational tasks, shortest paths and optimization problems.
+- `Dynamic_Programming/`: Features dynamic programming implementations and tests for optimizing various computational tasks, shortest paths and optimization problems.
 - `NP/`: Presents implementations and tests focusing on NP problems, covering NP-complete problems, approximation algorithms, NP-hard problems, and reductions between NP problems.
 
 
